@@ -19,11 +19,44 @@
   margin: 40px auto 0;
   display: flex;
   justify-content: space-between;
-  background: gray;
   height: 500px;
-  border: 1px solid #000;
 }
 .profile-item {
   width: 45%;
   background: #fff;
+}
+.profile-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.profile-input input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.profile-input label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.profile-card {
+  padding: 40px 0;
+  height: 250px;
+  box-shadow: 0px 0px 15px -5px #777777;
+  border-radius: 10px;
+}
+.profile-card div {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.profile-card div:last-child {
+  margin-bottom: 0;
+}
+.profile-img {
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #000;
 }
