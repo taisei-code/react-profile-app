@@ -28,35 +28,60 @@
 .profile-input {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .profile-input input {
-  width: 250px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
   border: 1px solid lightgray;
   border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.profile-input.file input {
+  height: 50px;
+  padding: 12px;
 }
 .profile-input label {
   font-weight: bold;
   margin-bottom: 10px;
 }
 .profile-card {
-  padding: 40px 0;
+  padding: 40px;
   height: 250px;
   box-shadow: 0px 0px 15px -5px #777777;
   border-radius: 10px;
 }
 .profile-card div {
+  margin-bottom: 20px;
+}
+.profile-card h2 {
+  font-size: 20px;
+  height: 30px;
+  font-weight: normal;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 .profile-card div:last-child {
   margin-bottom: 0;
 }
 .profile-img {
   margin: 0 auto;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background: #000;
+  background: lightgray;
+}
+.profile-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.profile-info {
+  height: 78px;
+}
+.profile-info div {
+  max-width: 215px;
+  margin: 0 auto 20px;
 }
