@@ -9,10 +9,10 @@ function App() {
 
   const changeProfileImg = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.files) return;
-
+    
     const imgObject = e.target.files[0];
     setProfileImg(window.URL.createObjectURL(imgObject))
-    console.log(profileImg)
+    
   };
   
   return (
@@ -50,6 +50,7 @@ function App() {
                 <label>プロフィール写真</label>
                 <input type="file" onChange={changeProfileImg} />
               </div>
+              <button className='register-btn'>Download as PNG</button>
             </div>
           </div>
         </section>
